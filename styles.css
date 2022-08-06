@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Default Styles */
+.images {
+    height: 100%;
+    width: 100%;
+}
+.main__heading {
+    margin-top: 20px;
+    letter-spacing: 1.3px;
+    text-align: center;
+}
+
+/* Landing Page Styles */
+.landing__page {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 3rem);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.landing__img {
+    grid-column: 1 / 13;
+    grid-row: 1 / 13;
+    object-fit: cover;
+}
+
+.hamburger {
+    grid-column: 10 / 13;
+    grid-row: 1 / 2;
+    margin-top: 20px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.lines {
+    background: #fff;
+    height: 3px;
+    width: 25px;
+    margin-bottom: 5px;
+}
+
+.landing__page__info {
+    grid-column: 3 / 13;
+    grid-row: 4 / 10;
+    color: #fff;
+    letter-spacing: 1.2px;
+}
+
+.landing__page__info h1 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+/* Best Car Section Styles */
+.best__car {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(15, 3rem);
+}
+
+.best__car__img {
+    grid-column: 1 / 13;
+    grid-row: 1 / 7;
+}
